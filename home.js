@@ -4,7 +4,7 @@ const router = express.Router();
 
 
 router.get('/', (req, res) => {
-    res.send('<h1> Welcome to the Home Page!</h1>');
+    res.send('Welcome to the Home Page!');
 });
 
 module.exports = router;
